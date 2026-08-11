@@ -34,7 +34,7 @@ a:focus-visible, .btn:focus-visible, .contact-card:focus-visible, .mobile-contac
 .hero {
   position: relative; isolation: isolate; overflow: hidden;
   min-height: clamp(570px, 74vh, 720px); padding: clamp(92px, 12vw, 148px) 0 104px;
-  background: #06243a url("images/hero-water-intelligence.webp") center center / cover no-repeat;
+  background: #06243a url("images/hero-water-intelligence.svg") center center / cover no-repeat;
   color: #fff;
 }
 .hero::before {
