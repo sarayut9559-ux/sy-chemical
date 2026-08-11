@@ -34,16 +34,16 @@ a:focus-visible, .btn:focus-visible, .contact-card:focus-visible, .mobile-contac
 .hero {
   position: relative; isolation: isolate; overflow: hidden;
   min-height: clamp(570px, 74vh, 720px); padding: clamp(92px, 12vw, 148px) 0 104px;
-  background: #06243a url("images/hero-water-intelligence.svg") center center / cover no-repeat;
+  background: #0b4f78 url("images/hero-water-intelligence-v2.svg") center center / cover no-repeat;
   color: #fff;
 }
 .hero::before {
   content: ""; position: absolute; inset: 0; z-index: -2;
-  background: linear-gradient(90deg, rgba(2, 20, 34, .96) 0%, rgba(3, 33, 53, .88) 34%, rgba(3, 38, 61, .48) 62%, rgba(2, 28, 45, .08) 100%);
+  background: linear-gradient(90deg, rgba(2, 28, 45, .80) 0%, rgba(3, 41, 66, .64) 36%, rgba(3, 54, 83, .26) 66%, rgba(2, 40, 64, .02) 100%);
 }
 .hero::after {
   content: ""; position: absolute; inset: auto 0 0; height: 42%; z-index: -1;
-  background: linear-gradient(0deg, rgba(2, 20, 34, .48), transparent);
+  background: linear-gradient(0deg, rgba(2, 30, 48, .20), transparent);
 }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 760px); align-items: center; }
 .hero-copy { padding: 30px 0; }
@@ -119,7 +119,7 @@ a:focus-visible, .btn:focus-visible, .contact-card:focus-visible, .mobile-contac
 @media (max-width: 900px) {
   body { padding-bottom: 84px; }
   .hero { min-height: 620px; padding: 82px 0 86px; background-position: 60% center; }
-  .hero::before { background: linear-gradient(90deg, rgba(2, 20, 34, .96) 0%, rgba(3, 33, 53, .86) 52%, rgba(3, 38, 61, .35) 100%); }
+  .hero::before { background: linear-gradient(90deg, rgba(2, 28, 45, .84) 0%, rgba(3, 41, 66, .70) 54%, rgba(3, 54, 83, .30) 100%); }
   .hero-grid, .two-col, .product-grid, .gallery-grid, .cta-grid { grid-template-columns: 1fr; }
   .trust-grid { grid-template-columns: 1fr; }
   .trust-item { padding: 17px 20px; border-right: 0; border-bottom: 1px solid var(--line); }
@@ -144,7 +144,7 @@ a:focus-visible, .btn:focus-visible, .contact-card:focus-visible, .mobile-contac
   .info-list div { grid-template-columns: 1fr; gap: 4px; }
   .hero-actions .btn { flex-basis: 100%; }
   .hero { min-height: 660px; padding-top: 72px; background-position: 66% center; }
-  .hero::before { background: linear-gradient(90deg, rgba(2, 20, 34, .97) 0%, rgba(3, 33, 53, .9) 67%, rgba(3, 38, 61, .56) 100%); }
+  .hero::before { background: linear-gradient(90deg, rgba(2, 28, 45, .88) 0%, rgba(3, 41, 66, .76) 67%, rgba(3, 54, 83, .46) 100%); }
   .hero h1 { font-size: clamp(2.3rem, 11vw, 3.4rem); }
   .trust-strip { margin-top: -24px; }
   .section { padding: 48px 0; }
