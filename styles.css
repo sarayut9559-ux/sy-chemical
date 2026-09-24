@@ -86,6 +86,15 @@ a:focus-visible, .btn:focus-visible, .contact-card:focus-visible, .mobile-contac
 .card h3 { margin: 0 0 10px; font-size: 1.1rem; }
 .card p, .product-note, .quote-box p, .info-list span, .quote-box li, .contact-card span, .footer p { color: var(--muted); line-height: 1.7; }
 .product-note { margin: 24px 0 0; padding: 14px 18px; border-left: 4px solid var(--brand); background: #eaf7fe; border-radius: 0 12px 12px 0; font-size: .94rem; }
+.catalog-heading { margin: 58px 0 24px; padding-top: 38px; border-top: 1px solid var(--line); }
+.catalog-heading h2 { margin-bottom: 12px; }
+.catalog-heading > p:last-child { max-width: 78ch; margin: 0; color: var(--muted); }
+.expanded-products .card { position: relative; }
+.expanded-products .card::before { content: ""; position: absolute; inset: 0 0 auto; height: 4px; z-index: 1; background: linear-gradient(90deg, var(--brand), #22c55e); }
+.expanded-products .card img { aspect-ratio: 1 / 1; padding: 14px; }
+.thai-name { margin: -3px 0 10px; color: var(--brand-dark) !important; font-weight: 750; }
+.formula { display: inline-block; margin: 0 0 10px !important; padding: 5px 9px; border-radius: 9px; background: #f1f5f9; color: var(--brand-deep) !important; font-family: "Segoe UI", Arial, sans-serif; font-size: .88rem; font-weight: 800; overflow-wrap: anywhere; }
+.reference-note { border-left-color: #f59e0b; background: #fff8e6; }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; }
 .info-list, .quote-box, .inventory-panel { background: var(--card); border: 1px solid var(--line); border-radius: 26px; padding: 24px; }
 .info-list div { display: grid; grid-template-columns: 120px 1fr; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--line); }
