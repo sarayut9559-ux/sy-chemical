@@ -172,7 +172,7 @@ a:focus-visible, .btn:focus-visible, .contact-card:focus-visible, .mobile-contac
   .hero::before {
     inset: 0 0 auto;
     height: clamp(170px, 51vw, 258px);
-    background: linear-gradient(0deg, #071f32, transparent 63%),
+    background: linear-gradient(0deg, #071f32 0%, rgba(7, 31, 50, .8) 13%, transparent 42%),
       url("images/hero-water-treatment.webp") 82% center / cover no-repeat;
   }
   .hero-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
